@@ -11,7 +11,7 @@ class Anagram
       split_word = word.split().sort {|a, b| a <=> b}
       split_instance_word = @word.split().sort {|a, b| a <=> b}
       if split_word == split_instance_word
-
+        return word
       end
     end
   end
