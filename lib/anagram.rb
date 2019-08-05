@@ -8,7 +8,8 @@ class Anagram
 
   def match(word_list)
     word_list.each do |word|
-      word.split().sort {|a, b| a <=> b}
+      split_word = word.split().sort {|a, b| a <=> b}
+
     end
   end
 end
