@@ -12,7 +12,7 @@ class Anagram
     word_list.each do |word|
       split_word = word.split('').sort
       split_instance_word = @word.split('').sort
-
+      
       if split_word == split_instance_word
         anagrams << word
       end
